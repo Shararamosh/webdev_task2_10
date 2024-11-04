@@ -1,0 +1,8 @@
+{
+    "messages": [
+        {"id": 1, "sender": "user1@domain.org", "message": "Здесь что-то не так."},
+        {"id": 2, "sender": "user2@domain.org", "message": "Почему всё так ярко? У меня аж глаза вытекают."},
+        {"id": 3, "sender": "user3@domain.org", "message": "А какой-нибудь функционал будет?"},
+        {"id": 4, "sender": "user4@domain.org", "message": "Хочу рабочие кнопочки, а не вот эту вот игру шрифтами."}
+    ]
+}
