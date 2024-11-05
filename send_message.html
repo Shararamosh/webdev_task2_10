@@ -45,29 +45,29 @@
                 </div>
               </div>
               <div class="row">
-                <div class="input-field col s12 m6 l6" id="input_email">
+                <div class="input-field col s12 m6 l6">
                   <i class="orange-text material-icons prefix">email</i>
                   <input id="email_input" type="email" class="white-text validate" required maxlength="256" data-length="256">
                   <label for="email_input" class="white-text">E-mail</label>
                 </div>
                   <div class="file-field input-field col s12 m6 l6">
-                    <a class="waves-effect orange btn-small">
-                      <i class="material-icons left">image</i>Аватар
-                      <input type="file" accept="image/*">
-                    </a>
+                    <div class="waves-effect orange btn-small">
+                      <i id="avatar_empty" class="material-icons left">image</i>Аватар
+                      <input id="avatar_input" type="file" accept="image/*">
+                    </div>
                     <div class="file-path-wrapper">
                       <input class="file-path validate" type="text">
                     </div>
+                  </div>
+                  <div class="input-field col s12 m12 l12">
+                    <i class="orange-text material-icons prefix">mode_edit</i>
+                    <input id="message_input" type="text" class="white-text validate" required minlength="1" data-length="256">
+                    <label for="message_input" class="white-text">Сообщение</label>
+                  </div>
                 </div>
-                <div class="input-field col s12 m12 l12" id="input_message">
-                  <i class="orange-text material-icons prefix">mode_edit</i>
-                  <input id="message_input" type="text" class="white-text validate" required minlength="1" data-length="256">
-                  <label for="message_input" class="white-text">Сообщение</label>
-                </div>
-              </div>
               <div class="row">
                 <center>
-                  <button class="orange btn waves-effect" type="submit" name="action">Отправить
+                  <button class="orange btn waves-effect" type="submit" name="action" id="message_submit">Отправить
                     <i class="material-icons right">send</i>
                   </button>
                 </center>
@@ -96,6 +96,7 @@
       </div>
     </footer>
     <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/script.js"></script>
   </body>
