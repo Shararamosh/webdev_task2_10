@@ -46,8 +46,11 @@ img.main__img {
     height: 100%;
     overflow: auto;
 }
-.scalable_material_icon {
+.column_material_icon {
     font-size: max(min(30vmin, 2em), 1em);
+}
+.main_material_icon {
+    font-size: min(30vmin, 10em)
 }
 #copyright_footer {
     font-family: "DS Goose";
